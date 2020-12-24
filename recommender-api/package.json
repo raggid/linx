@@ -1,0 +1,24 @@
+{
+  "name": "recommender-api",
+  "version": "1.0.0",
+  "description": "API for product recommendations",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "debug": "nodemon --inspect server",
+    "deploy": "node server"
+  },
+  "author": "Antonio Tomaz",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
