@@ -1,7 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const config = require("config");
-const cors = require("cors");
 const consign = require("consign");
 
 module.exports = () => {
@@ -12,7 +11,6 @@ module.exports = () => {
 
     // MIDDLEWARES
     app.use(bodyParser.json());
-    app.use(cors);
 
     // ENDPOINTS
     consign({ cwd: 'api' })

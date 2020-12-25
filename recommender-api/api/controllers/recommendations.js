@@ -4,7 +4,7 @@ module.exports = app => {
     const controller = {};
     const axios = require('axios');
     const rootUrl = 'https://wishlist.neemu.com/onsite/impulse-core/ranking/'
-    const productUrl = 'http://catalog-api:8000/products/'
+    const productUrl = 'http://catalog:8000/products/'
 
     controller.listProducts = (req, res) => {
         let maxProducts = req.query.maxProducts > 10 ? req.query.maxProducts : 10;

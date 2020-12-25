@@ -29,7 +29,7 @@ services:
   catalog-api:
     build:
       context: ./catalog-api
-    container_name: catalog-api
+    container_name: catalog
     expose:
       - 8000
     ports:
@@ -43,7 +43,7 @@ services:
   recommender-api:
     build:
       context: ./recommender-api
-    container_name: recommender-api
+    container_name: recommender
     expose:
       - 9000
     ports:
