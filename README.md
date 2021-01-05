@@ -1,4 +1,4 @@
-# linx
+# Product Display API
 
 Executar o projeto com docker compose usando o comando   
 docker-compose up -d  
